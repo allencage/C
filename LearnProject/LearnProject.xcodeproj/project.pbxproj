@@ -27,6 +27,7 @@
 		0448E8601DF482B40027DDFE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0448E8681DF484500027DDFE /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 		0448E8691DF484980027DDFE /* GenericMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericMessages.h; sourceTree = "<group>"; };
+		0448E86A1DF484EC0027DDFE /* InputValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 			children = (
 				0448E8681DF484500027DDFE /* BaseHeader.h */,
 				0448E8691DF484980027DDFE /* GenericMessages.h */,
+				0448E86A1DF484EC0027DDFE /* InputValidation.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
