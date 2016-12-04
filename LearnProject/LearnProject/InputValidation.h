@@ -11,7 +11,7 @@
 
 #include "BaseHeader.h"
 
-void ValidateInput();
+void InputValidationTest();
 int GetInt(char message[50]);
 int *GetIntPointer(char message[50]);
 

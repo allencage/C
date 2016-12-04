@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0448E8611DF482B40027DDFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8601DF482B40027DDFE /* main.c */; };
+		0448E86C1DF485360027DDFE /* InputValidation.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E86B1DF485360027DDFE /* InputValidation.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		0448E8681DF484500027DDFE /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 		0448E8691DF484980027DDFE /* GenericMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericMessages.h; sourceTree = "<group>"; };
 		0448E86A1DF484EC0027DDFE /* InputValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidation.h; sourceTree = "<group>"; };
+		0448E86B1DF485360027DDFE /* InputValidation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InputValidation.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		0448E85F1DF482B40027DDFE /* LearnProject */ = {
 			isa = PBXGroup;
 			children = (
+				0448E86B1DF485360027DDFE /* InputValidation.c */,
 				0448E8671DF484400027DDFE /* Headers */,
 				0448E8601DF482B40027DDFE /* main.c */,
 			);
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0448E8611DF482B40027DDFE /* main.c in Sources */,
+				0448E86C1DF485360027DDFE /* InputValidation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
