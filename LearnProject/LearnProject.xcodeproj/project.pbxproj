@@ -10,6 +10,11 @@
 		0448E8611DF482B40027DDFE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8601DF482B40027DDFE /* main.c */; };
 		0448E86C1DF485360027DDFE /* InputValidation.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E86B1DF485360027DDFE /* InputValidation.c */; };
 		0448E86F1DF486390027DDFE /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E86D1DF486390027DDFE /* Pointers.c */; };
+		0448E8721DF486C90027DDFE /* Structs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8701DF486C90027DDFE /* Structs.c */; };
+		0448E8751DF5F38B0027DDFE /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8731DF5F38B0027DDFE /* LinkedList.c */; };
+		0448E8781DF5F3D50027DDFE /* HelperFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8761DF5F3D50027DDFE /* HelperFile.c */; };
+		0448E87B1DF5F4710027DDFE /* ControlStatements.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E8791DF5F4710027DDFE /* ControlStatements.c */; };
+		0448E87E1DF5F4A30027DDFE /* SimpleShop.c in Sources */ = {isa = PBXBuildFile; fileRef = 0448E87C1DF5F4A30027DDFE /* SimpleShop.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +38,16 @@
 		0448E86B1DF485360027DDFE /* InputValidation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InputValidation.c; sourceTree = "<group>"; };
 		0448E86D1DF486390027DDFE /* Pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
 		0448E86E1DF486390027DDFE /* Pointers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pointers.h; sourceTree = "<group>"; };
+		0448E8701DF486C90027DDFE /* Structs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Structs.c; sourceTree = "<group>"; };
+		0448E8711DF486C90027DDFE /* Structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Structs.h; sourceTree = "<group>"; };
+		0448E8731DF5F38B0027DDFE /* LinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		0448E8741DF5F38B0027DDFE /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		0448E8761DF5F3D50027DDFE /* HelperFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HelperFile.c; sourceTree = "<group>"; };
+		0448E8771DF5F3D50027DDFE /* HelperFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperFile.h; sourceTree = "<group>"; };
+		0448E8791DF5F4710027DDFE /* ControlStatements.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ControlStatements.c; sourceTree = "<group>"; };
+		0448E87A1DF5F4710027DDFE /* ControlStatements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlStatements.h; sourceTree = "<group>"; };
+		0448E87C1DF5F4A30027DDFE /* SimpleShop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleShop.c; sourceTree = "<group>"; };
+		0448E87D1DF5F4A30027DDFE /* SimpleShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleShop.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +84,16 @@
 				0448E8671DF484400027DDFE /* Headers */,
 				0448E8601DF482B40027DDFE /* main.c */,
 				0448E86D1DF486390027DDFE /* Pointers.c */,
+				0448E8701DF486C90027DDFE /* Structs.c */,
+				0448E8711DF486C90027DDFE /* Structs.h */,
+				0448E8731DF5F38B0027DDFE /* LinkedList.c */,
+				0448E8741DF5F38B0027DDFE /* LinkedList.h */,
+				0448E8761DF5F3D50027DDFE /* HelperFile.c */,
+				0448E8771DF5F3D50027DDFE /* HelperFile.h */,
+				0448E8791DF5F4710027DDFE /* ControlStatements.c */,
+				0448E87A1DF5F4710027DDFE /* ControlStatements.h */,
+				0448E87C1DF5F4A30027DDFE /* SimpleShop.c */,
+				0448E87D1DF5F4A30027DDFE /* SimpleShop.h */,
 			);
 			path = LearnProject;
 			sourceTree = "<group>";
@@ -142,7 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0448E8611DF482B40027DDFE /* main.c in Sources */,
+				0448E87E1DF5F4A30027DDFE /* SimpleShop.c in Sources */,
+				0448E8781DF5F3D50027DDFE /* HelperFile.c in Sources */,
 				0448E86F1DF486390027DDFE /* Pointers.c in Sources */,
+				0448E8721DF486C90027DDFE /* Structs.c in Sources */,
+				0448E87B1DF5F4710027DDFE /* ControlStatements.c in Sources */,
+				0448E8751DF5F38B0027DDFE /* LinkedList.c in Sources */,
 				0448E86C1DF485360027DDFE /* InputValidation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +300,7 @@
 				0448E8661DF482B40027DDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
